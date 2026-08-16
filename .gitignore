@@ -1,0 +1,13 @@
+# Editor de código
+.vscode/
+
+# Dependencias (por si usas npm más adelante)
+node_modules/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Registros y temporales
+*.log
+.env
