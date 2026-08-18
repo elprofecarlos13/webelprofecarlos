@@ -955,16 +955,25 @@ footer .foot-sub {
 }
 .back-top {
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  bottom: 15px;
+  right: 15px;
   z-index: 9999;
   background: #ff6b1a;
   color: white;
-  padding: 12px 15px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   text-decoration: none;
   font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  transition: .3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-top:hover {
+  transform: translateY(-3px);
 }
 .whatsapp-float {
   position: fixed;
