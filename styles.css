@@ -43,6 +43,9 @@ nav {
   font-weight: 700;
   letter-spacing: 1px;
 }
+.nav-logo img {
+  border-radius: 10%;
+}
 .nav-logo span {
   color: var(--naranja);
 }
